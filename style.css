@@ -1,0 +1,92 @@
+* { margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+  }
+  body { font-family: Arial, sans-serif; 
+  line-height: 1.6; 
+}
+  header { 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  background: #0f172a; 
+  color: #fff;
+  padding: 1rem 2rem; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  z-index: 1000; 
+  }
+  header h1 { font-size: 1.5rem; }
+  nav ul { display: flex; 
+  gap: 1rem; 
+  list-style: none; }
+  nav ul li a { color: #fff; 
+    
+  text-decoration: none; font-weight: bold; }
+  nav ul li a:hover { color: #38bdf8; }
+  .menu-toggle { display: none; 
+  cursor: pointer; 
+  font-size: 1.5rem; }
+  
+  .hero { display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    text-align: center; 
+    background: linear-gradient(135deg, #3d4e55, #768fd4); 
+    color: white; padding: 2rem; }
+  .hero h2 { font-size: 2.5rem; 
+    margin-bottom: 1rem; }
+  .hero p { font-size: 1.2rem; 
+    margin-bottom: 2rem; }
+  .hero button { padding: 0.75rem 1.5rem; 
+    border: none; background: #5fafd1; 
+    color: white; 
+    font-size: 1rem; 
+    border-radius: 5px; 
+    cursor: pointer; }
+  .hero button:hover { background: #0284c7; }
+  .hero button:hover { background: #0284c7; }
+   .hero button a{
+      text-decoration: none;
+      color: white;
+   }
+  .section { padding: 5rem 2rem; 
+  text-align: center; }
+  .section h2 { font-size: 2rem; margin-bottom: 1rem; color: #0f172a; }
+  .section p { max-width: 700px; margin: 0 auto; margin-bottom: 2rem; color: #475569; }
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+  .feature { padding: 2rem; background: #f1f5f9; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+  .feature h3 { margin-bottom: 1rem; color: #0f172a; }
+  .feature p { color: #334155; }
+
+  footer { background: #0f172a; color: #fff; text-align: center; padding: 2rem; }
+  footer p { margin: 0.5rem 0; }
+
+  @media(max-width: 768px){
+    nav ul { display: none; flex-direction: column; background: #0f172a; position: absolute; top: 60px; right: 0; width: 200px; padding: 1rem; }
+    nav ul.active { display: flex; }
+    .menu-toggle { display: block; }
+  }
+
+   .apply{
+      height: 20px;
+      width: 80px;
+      color: white;
+      background-color: #0ea5e9;
+      border-radius: 20px;
+      border: 1px black solid ;
+      
+  }
+
+   .apply a {
+      text-align: center;
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: 10px;
+      padding: 20px;
+
+  }
